@@ -2,13 +2,13 @@
 
 Welcome to my repository documenting my work during the **Data Visualization Trainee – Early Remote Internship** at **Excelerate**.
 
-After successfully completing the **AI-Powered Data Analysis Remote Internship**, I was selected for this internship to further develop my skills in **data analytics, visualization, dashboard development, and business intelligence** using real-world datasets.
+After successfully completing the **AI-Powered Data Analysis Remote Internship**, I was selected for this internship to further strengthen my skills in **data analytics, exploratory data analysis, data visualization, dashboard development, and business intelligence** using real-world datasets.
 
 This repository contains all weekly tasks, reports, notebooks, cleaned datasets, visualizations, dashboards, and project documentation completed throughout the internship.
 
 ---
 
-## 🎯 Internship Objectives
+# 🎯 Internship Objectives
 
 - Understand and prepare real-world datasets
 - Perform Exploratory Data Analysis (EDA)
@@ -20,13 +20,14 @@ This repository contains all weekly tasks, reports, notebooks, cleaned datasets,
 
 ---
 
-## 🛠️ Tech Stack
+# 🛠️ Tech Stack
 
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Jupyter Notebook
+- Google Looker Studio
 - Microsoft Excel
 - Git & GitHub
 
@@ -45,10 +46,20 @@ excelerate-data-visualization-internship/
 │   └── README.md
 │
 ├── Week-2-EDA/
+│   ├── data/
+│   ├── notebooks/
+│   ├── reports/
+│   ├── visualizations/
+│   └── README.md
 │
-├── Week-3/
+├── Week-3-Dashboard-Development/
+│   ├── data/
+│   ├── notebooks/
+│   ├── reports/
+│   ├── images/
+│   └── README.md
 │
-├── Week-4/
+├── Week-4-Final-Presentation/
 │
 ├── LICENSE
 └── README.md
@@ -59,18 +70,17 @@ excelerate-data-visualization-internship/
 # 📅 Weekly Progress
 
 | Week | Topic | Status |
-|------|-------|--------|
+|------|-------------------------------|-----------|
 | Week 1 | Data Understanding & Preparation | ✅ Completed |
-| Week 2 | Exploratory Data Analysis (EDA) | ⏳ Upcoming |
-| Week 3 | Data Visualization | ⏳ Upcoming |
-| Week 4 | Dashboard Development | ⏳ Upcoming |
-| Week 5 | Final Presentation & Insights | ⏳ Upcoming |
+| Week 2 | Exploratory Data Analysis (EDA) | ✅ Completed |
+| Week 3 | Dashboard Development & Insight Generation | ✅ Completed |
+| Week 4 | Final Presentation & Business Insights | ⏳ In Progress |
 
 ---
 
 # 📂 Week 1 Highlights
 
-### Objectives
+## Objectives
 
 - Understand the Opportunity dataset
 - Create a Data Dictionary
@@ -79,7 +89,7 @@ excelerate-data-visualization-internship/
 - Document cleaning decisions
 - Validate the final dataset
 
-### Deliverables
+## Deliverables
 
 - ✅ Data Dictionary
 - ✅ Data Cleaning Documentation
@@ -87,16 +97,124 @@ excelerate-data-visualization-internship/
 - ✅ Jupyter Notebook
 - ✅ Documentation Report
 
-### Key Tasks Completed
+## Key Tasks Completed
 
 - Explored dataset structure
 - Reviewed 5,733 opportunity records
-- Documented all dataset variables
+- Documented dataset variables
 - Identified missing values
-- Checked duplicate records
+- Removed duplicate records
 - Standardized data formatting
 - Converted data types
 - Prepared an analysis-ready dataset
+
+---
+
+# 📂 Week 2 Highlights – Exploratory Data Analysis (EDA)
+
+## Objectives
+
+- Perform exploratory data analysis on the cleaned dataset
+- Identify trends and patterns
+- Generate statistical summaries
+- Visualize important relationships
+- Prepare the dataset for dashboard development
+
+## Deliverables
+
+- ✅ Exploratory Data Analysis Report
+- ✅ Jupyter Notebook
+- ✅ Python Source Code
+- ✅ Data Visualizations
+- ✅ Summary Statistics
+
+## Key Tasks Completed
+
+- Performed descriptive statistics
+- Analyzed opportunity categories
+- Explored posting trends over time
+- Studied location distribution
+- Examined fee and scholarship information
+- Created multiple charts and visualizations
+- Identified business insights
+- Prepared data for dashboard development
+
+## Visualizations Created
+
+- Opportunity Category Distribution
+- Monthly Posting Trend
+- Yearly Posting Trend
+- Location Distribution
+- Free vs Paid Opportunities
+- Scholarship Analysis
+- Currency Distribution
+- Duration Analysis
+- Correlation Analysis
+
+---
+
+# 📂 Week 3 Highlights – Dashboard Development & Insight Generation
+
+## Objectives
+
+- Build an interactive dashboard
+- Visualize key business metrics
+- Present analytical findings through dashboards
+- Generate business insights
+- Provide actionable recommendations
+
+## Deliverables
+
+- ✅ Interactive Dashboard (Google Looker Studio)
+- ✅ Dashboard Link
+- ✅ Dashboard Report (DOCX & PDF)
+- ✅ Dashboard Screenshots
+- ✅ Jupyter Notebook
+- ✅ Python Code
+
+## Dashboard Pages
+
+### 📊 Overview
+- KPI Cards
+- Opportunity Category Distribution
+- Overall Dataset Summary
+
+### 📈 Sign-up & Category Performance
+- Highest & Lowest Categories
+- Average Scholarship
+- Average Fee
+- Category Comparison
+
+### 📅 Trends Over Time
+- Monthly Opportunity Trends
+- Yearly Posting Trends
+
+### 🌍 Location Distribution
+- Remote vs Virtual Opportunities
+- Category-wise Location Analysis
+
+### 💰 Financial & Scholarship
+- Free vs Paid Distribution
+- Scholarship Analysis
+- Currency Distribution
+- Duration Units
+
+## Key Business Insights
+
+- Internship opportunities dominate the dataset.
+- Nearly 79% of opportunities are free.
+- Around 75% are remote or work-from-home.
+- Opportunity postings peaked during 2023–2024.
+- USD is the most common scholarship currency.
+- Most opportunities have durations measured in weeks.
+
+## Recommendations
+
+- Expand internship and career opportunities.
+- Improve scholarship availability.
+- Enhance data quality for missing location fields.
+- Introduce outreach channel tracking.
+- Add drill-down and reset filter functionality to future dashboard versions.
 
 ---
 
@@ -104,26 +222,34 @@ excelerate-data-visualization-internship/
 
 - Data Understanding
 - Data Cleaning
-- Data Validation
-- Data Documentation
-- Feature Identification
-- Data Quality Assessment
+- Exploratory Data Analysis
+- Data Visualization
+- Dashboard Design
+- Business Intelligence
+- KPI Development
+- Dashboard Storytelling
 - Python Programming
-- Pandas Data Manipulation
-- Analytical Thinking
+- Pandas
+- NumPy
+- Matplotlib
+- Google Looker Studio
+- Microsoft Excel
+- Git & GitHub
 
 ---
 
 # 🚀 Learning Outcomes
 
-Throughout this internship I aim to strengthen my understanding of:
+Throughout this internship I strengthened my understanding of:
 
-- Data preprocessing
+- Data Cleaning
+- Data Preprocessing
 - Exploratory Data Analysis (EDA)
-- Data Visualization
-- Dashboard Design
+- Dashboard Development
 - Business Intelligence
-- Storytelling with Data
+- KPI Analysis
+- Data Storytelling
+- Data Visualization
 - Professional Documentation
 - GitHub Project Management
 
@@ -131,37 +257,38 @@ Throughout this internship I aim to strengthen my understanding of:
 
 # 📈 Future Updates
 
-This repository will be updated every week with:
+This repository will continue to be updated with:
 
-- Python notebooks
+- Week 4 Final Presentation
+- Business Recommendations
+- Final Dashboard
+- Python Notebooks
 - Reports
-- Cleaned datasets
 - Visualizations
-- Dashboards
-- Business insights
-- Final project presentation
+- Final Project Documentation
 
 ---
 
 # 🤝 Acknowledgements
 
-I would like to thank **Excelerate** for providing the opportunity to continue my learning journey through the **Data Visualization Trainee – Early Remote Internship** and for offering hands-on experience with real-world datasets and analytics workflows.
+I would like to thank **Excelerate** for providing me with the opportunity to continue my learning journey through the **Data Visualization Trainee – Early Remote Internship**. This experience has significantly improved my practical knowledge of data analysis, dashboard development, visualization techniques, and business intelligence using real-world datasets.
 
 ---
 
 # 👨‍💻 Author
 
-## Murali Krishna
+## Murali Krishna M
 
-🎓 Computer Science Student
+🎓 BCA Student
 
 📊 Aspiring Data Analyst | Machine Learning Enthusiast
 
 ### Connect with Me
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/murali-krishna-m-781127335/
-- 💻 **GitHub:** https://github.com/murali-krishna-132
+💼 **LinkedIn:** https://www.linkedin.com/in/murali-krishna-m-781127335/
+
+💻 **GitHub:** https://github.com/murali-krishna-132
 
 ---
 
-⭐ If you found this repository useful, feel free to star it!
+⭐ If you found this repository helpful, consider giving it a star!
